@@ -85,7 +85,7 @@ export function EntryForm({ type, entries, onChange }) {
     if (improveError) {
       toast.error(improveError.message || "Failed to improve description");
     }
-  }, [improvedContent, improveError, isImproving, setValue]);
+  }, [improvedContent, improveError, setValue]);
 
   // Replace handleImproveDescription with this
   const handleImproveDescription = async () => {

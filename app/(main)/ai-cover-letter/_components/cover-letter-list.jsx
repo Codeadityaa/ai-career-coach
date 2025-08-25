@@ -66,7 +66,7 @@ export default function CoverLetterList({ coverLetters }) {
                 </CardDescription>
               </div>
               <div className="flex space-x-2">
-                <AlertDialog>
+                <AlertDialog key={letter.id}>
                   <Button
                     variant="outline"
                     size="icon"
